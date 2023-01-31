@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>YumBus</title>
+<title>YumBus is amazing</title>
 <style>
 @charset "UTF-8";
 
