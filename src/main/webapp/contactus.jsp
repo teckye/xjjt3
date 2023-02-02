@@ -100,7 +100,7 @@ html {
 <div class="about-section">
   <h1>Contact Us</h1>
 
-  <p>Contact us if you have any enquiries.</p>
+  <p>Contact us if you have any enquiries. </p>
 </div>
 
 <h2 style="text-align:center">Contact Us At</h2>
