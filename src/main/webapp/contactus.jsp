@@ -98,7 +98,7 @@ html {
 <body>
 <%@ include file="header.jsp" %>
 <div class="about-section">
-  <h1>Contact Us</h1>
+  <h1>Contact Us Page</h1>
 
   <p>Contact us if you have any enquiries. </p>
 </div>
