@@ -120,7 +120,7 @@ html {
       <img src="./image/phone.png" style="width:50%">
       <div class="container">
         <h2>PHONE NUMBER</h2>
-        <p>+65 81831159</p>
+        <p>+65 81830000</p>
       </div>
     </div>
   </div>
