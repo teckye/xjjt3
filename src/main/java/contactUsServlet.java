@@ -62,7 +62,7 @@ public class contactUsServlet extends HttpServlet {
 		//Step 7: check if the query had been successfully execute, return “You are successfully registered” via the response,
 		 if (i > 0){
 		PrintWriter writer = response.getWriter();
-		writer.println("<h1>" + "You have successfully registered an account!" +
+		writer.println("<h1>" + "You have successfully written a comment!" +
 		"</h1>");
 		writer.close();
 		}
