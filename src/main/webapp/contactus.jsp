@@ -178,10 +178,10 @@ input[type=submit]:hover {
   <form action="action_page.php" method="post">
 
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" name="fname" placeholder="Your name..">
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <input type="text" id="lname" name="lname" placeholder="Your last name..">
 
     <label for="type">Reason for contact</label>
     <select id="type" name="type">

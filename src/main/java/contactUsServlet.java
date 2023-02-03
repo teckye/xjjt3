@@ -51,7 +51,7 @@ public class contactUsServlet extends HttpServlet {
 		 Connection con = DriverManager.getConnection(
 		 "jdbc:mysql://localhost:3306/userdetails", "root", "password");
 		//Step 4: implement the sql query using prepared statement (https://docs.oracle.com/javase/tutorial/jdbc/basics/prepared.html)
-		 PreparedStatement ps = con.prepareStatement("insert into USERDETAILS values(?,?,?,?)");
+		 PreparedStatement ps = con.prepareStatement("insert into userdetails values(?,?,?,?)");
 		//Step 5: parse in the data retrieved from the web form request into the prepared statement accordingly
 		 ps.setString(1, n);
 		 ps.setString(2, p);
