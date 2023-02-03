@@ -175,7 +175,7 @@ input[type=submit]:hover {
     </div>
   </div>
  <div class="container1">
-  <form action="action_page.php" method="post">
+  <form action="contactUsServlet" method="post">
 
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="fname" placeholder="Your name..">
