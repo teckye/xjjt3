@@ -123,6 +123,13 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+.container2 {
+  border-radius: 1px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
 </style>
 <meta charset="UTF-8">
 <title>Contact Us</title>
@@ -190,7 +197,8 @@ input[type=submit]:hover {
 
   </form>
 </div> 
-  
+  <div class="container2">
+  </div>
 </div>
 <%@ include file="footer.jsp" %>
 </body>
