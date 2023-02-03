@@ -42,10 +42,10 @@ public class contactUsServlet extends HttpServlet {
 		//Step 1: Initialize a PrintWriter object to return the html values via the response
 		PrintWriter out = response.getWriter();
 		//Step 2: retrieve the four parameters from the request from the web form
-		String n = request.getParameter("fname");
-		String p = request.getParameter("lname");
-		String e = request.getParameter("type");
-		String c = request.getParameter("subject");
+		java.lang.String n = request.getParameter("fname");
+		java.lang.String p = request.getParameter("lname");
+		java.lang.String e = request.getParameter("type");
+		java.lang.String c = request.getParameter("subject");
 		//Step 3: attempt connection to database using JDBC, you can change the username and password accordingly using the phpMyAdmin > User Account dashboard
 		try {
 		 Class.forName("com.mysql.jdbc.Driver");
