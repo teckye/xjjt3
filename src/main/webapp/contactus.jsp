@@ -183,11 +183,11 @@ input[type=submit]:hover {
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
+    <label for="type">Reason for contact</label>
+    <select id="type" name="type">
+      <option value="complain">Complain</option>
+      <option value="compliment">Compliment</option>
+      <option value="others">Others</option>
     </select>
 
     <label for="subject">Subject</label>
