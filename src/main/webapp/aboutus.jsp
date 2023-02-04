@@ -11,7 +11,7 @@
   text-align: center;
   position: absolute;
   z-index: 1;
-  top: 25%;
+  top: 10%;
   left: 36%
 }
 #heading2 {
@@ -20,7 +20,7 @@
   text-align: center;
   position: absolute;
   z-index: 1;
-  top: 10%;
+  top: 30%;
   left: 44% 
   
 }
@@ -30,7 +30,7 @@
   text-align: center;
   position: absolute;
   z-index: 1;
-  top: 30%;
+  top: 60%;
   left: 19.5%
 }
 </style>
