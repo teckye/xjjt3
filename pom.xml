@@ -4,11 +4,35 @@
   <artifactId>xjjt3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <dependencies> <dependency>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+  <dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>8.0.25</version>
+  </dependency>
+  <dependency>
+	<groupId>javax.servlet</groupId>
+	<artifactId>javax.servlet-api</artifactId>
+	<version>3.1.0</version>
+	<scope>provided</scope>
+  </dependency>
+  <dependency>
+  	<groupId>javax.servlet.jsp</groupId>
+	<artifactId>javax.servlet.jsp-api</artifactId>
+	<version>2.3.1</version>
+	<scope>provided</scope>
+  </dependency>
+  <dependency>
 <groupId>javax.servlet</groupId> <artifactId>javax.servlet-api</artifactId> <version>3.1.0</version> <scope>provided</scope>
 </dependency> <dependency>
 <groupId>javax.servlet.jsp</groupId> <artifactId>javax.servlet.jsp-api</artifactId> <version>2.3.1</version> <scope>provided</scope>
 </dependency> </dependencies>
+<properties>
+	<junit-jupiter-groupId>org.junit.jupiter</junit-jupiter-groupId>
+	<junit-jupiter-artifact>junit-jupiter</junit-jupiter-artifact>
+	<junit-jupiter-version>5.7.0</junit-jupiter-version>
+</properties>
   <build>
     <plugins>
       <plugin>
