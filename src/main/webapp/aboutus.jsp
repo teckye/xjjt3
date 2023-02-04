@@ -21,7 +21,7 @@
   position: absolute;
   z-index: 1;
   top: 30%;
-  left: 44% 
+  left: 20% 
   
 }
 #heading3 {
