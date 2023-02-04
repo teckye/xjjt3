@@ -41,7 +41,7 @@
 <%@ include file="header.jsp" %>
 <h2 id='heading1'>About Us!</h2>
 <h3 id='heading2'>Hello all, welcome to YumBus!<br><br>We are a group of foodies who love to explore all
-kinds of food around Singapore. Let us bring you the different cuisines in Singapore.<br><br>
+kinds of food around Singapore. <br>Let us bring you the different cuisines in Singapore.<br><br>
 </h3>
 <form action="reviewServlet" method="post" id='heading3'>
 Please give us a review: <input type="text" name="yourName" size="20">
